@@ -1,0 +1,1 @@
+0. I used Python's built-in math.factorial (imported locally) instead of np.math.factorial since the latter is deprecated/removed in recent NumPy versions — this keeps the code future-proof while producing identical results.
