@@ -3,8 +3,9 @@
 
 import tensorflow as tf
 
+
 def create_placeholders(nx, classes):
-    """Creates placeholders for a neural network. 
+    """Creates placeholders for a neural network.
     that Returns:
         x: placeholder for input data.
         y: placeholder for one-hot labels.
