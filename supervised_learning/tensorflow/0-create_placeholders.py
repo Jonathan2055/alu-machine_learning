@@ -3,10 +3,14 @@
 
 
 import tensorflow as tf
-"""Creates placeholders for a neural network."""
 
 
 def create_placeholders(nx, classes):
+    """Creates placeholders for a neural network. 
+    that Returns:
+        x: placeholder for input data.
+        y: placeholder for one-hot labels.
+    """
     x = tf.placeholder(tf.float32, shape=(None, nx), name="x")
     y = tf.placeholder(tf.float32, shape=(None, classes), name="y")
     return x, y
