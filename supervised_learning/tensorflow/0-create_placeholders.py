@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """Creates placeholders for a neural network."""
 
-
 import tensorflow as tf
-
 
 def create_placeholders(nx, classes):
     """Creates placeholders for a neural network. 
