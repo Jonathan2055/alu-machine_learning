@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""A neurons and classification"""
+"""A neuron for binary classification."""
 
 import numpy as np
 
-class neuron:
+
+class Neuron:
     """Defines a single neuron performing binary classification."""
-    def  __init__(self, nx):
+
+    def __init__(self, nx):
         """Initialize a neuron."""
         if not isinstance(nx, int):
             raise TypeError("nx must be an integer")
